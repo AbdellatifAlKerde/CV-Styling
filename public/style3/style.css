@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(./53d9cd303086eae0decfed3d000fc976.jpg);
+  color: #a3c0fd;
+}
+
+#wrapper {
+  width: 60%;
+  margin: 0 auto;
+  position: relative;
+  backdrop-filter: blur(8px);
+  padding: 10px;
+}
+
+header {
+  border-bottom: 2px solid #999;
+}
+
+header div {
+  display: flex;
+}
+
+header figure img  {
+  border-radius: 50%;
+}
+
+#contact {
+  position: absolute;
+  top: 15px;
+  right: 100px;
+  border: 2px solid #999;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+#contact h3 {
+  display: none;
+}
+
+#contact .contacts .contact {
+  display: flex;
+}
+
+#contact .contacts .contact dt {
+  width: 120px;
+}
+
+.content {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.content section:not(:last-child) h3 {
+  min-width: 150px;
+  font-style: italic;
+}
+
+/* .content section:not(:last-child) p {
+  color: #555;
+} */
+
+.content section:not(:last-child) h4 {
+  margin-bottom: 5px;
+}
+
+.content section:not(:last-child) {
+  display: flex;
+  border-bottom: 2px solid #999;
+  padding: 30px 0;
+  gap: 10px;
+}
+
+.content section:not(:last-child) .experience-details {
+  margin-bottom: 20px;
+}
+
+#competencies .skills-primary {
+  flex-basis: 50%;
+}
+
+#competencies .skills-secondary {
+  flex-basis: 50%;
+}
+
+#experiences .experience {
+  flex-basis: 50%;
+}
+
+#education .experience {
+  flex-basis: 50%;
+}
+
+#competencies .skills .skill {
+  border: 2px solid #a3c0fd;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+#competencies .skills-primary .skill:first-child span {
+  width: 50%;
+}
+
+#competencies .skills-primary .skill:nth-child(2) span {
+  width: 30%;
+}
+
+#competencies .skills-primary .skill:last-child span {
+  width: 10%;
+}
+
+#competencies .skills-secondary .skill:first-child span {
+  width: 90%;
+}
+
+#competencies .skills-secondary .skill:nth-child(2) span {
+  width: 50%;
+}
+
+#competencies .skills-secondary .skill:last-child span {
+  width: 70%;
+}
+
+#competencies .skills .skill span {
+  background-color: #8197c5;
+  color: #444;
+  box-shadow: 0 0 10px #8197c5;
+  display: block;
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#hobbies {
+  margin-bottom: 20px;
+}
+
